@@ -33,6 +33,10 @@ func BenchmarkTableTest(b *testing.B) {
 		name : "Firdaus",
 		request : "Firdaus",
 		expected : "Hello Firdaus",
+	},{
+		name : "Muhamad",
+		request : "Muhamad",
+		expected : "Hello Muhamad",
 	},
 }
 for _ , test := range tests {
